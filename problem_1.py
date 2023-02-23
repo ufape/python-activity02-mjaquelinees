@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 
-# YOUR FULL NAME
+# Maria Jaqueline
 # UAG00098
 # Problem Set 2 - Problem 1
 # Description:
@@ -36,8 +36,32 @@ Valores aceitos.
 
 
 def main():
-    pass  # your code here
+      A = int(input("Digite o valor de A:"))
+      B = int(input("Digite o valor de B: "))
+      C = int(input("Digite o valor de C: "))
+      D = int (input("Digite o  valor de D:"))
+      somaCD = C + D
+      somaAB = A + B
+      quant = 0
+      if B > C :
+       if D > A :
+         if somaCD > somaAB:
+           if C and D >= 0:
+             if (A%2) == 0:
+
+               print("Valores aceitos.")
+       else:
+              print("Valores recusados")
+        
+    
+
+  
+   
+      
+  
+      
+    
 
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()

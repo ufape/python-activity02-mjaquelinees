@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 
-# YOUR FULL NAME
+# Maria Jaqueline
 # UAG00098
 # Problem Set 2 - Problem 2
 # Description:
@@ -26,8 +26,18 @@ R2 = -2.712
 
 
 def main():
-    pass  # your code here
+      a = float(input("Digite o valor de A:"))
+      b = float(input("Digite o valor de B:"))
+      c = float(input("Digite o valor de c:"))
+      delta = (b ** 2) - 4 * a * c
+      if a == 0 or delta < 0: 
+        print ("Impossível de calcular.")
+      else:
+        r1 = (-b + delta**0.5) / (2*a)
+        r2 = (-b - delta**0.5) / (2*a)
+        print(f" R1 = {r1:.3f}")
+        print(f"R2 = {r2:.3f}")
+      
 
-
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
